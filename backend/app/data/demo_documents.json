@@ -1,0 +1,26 @@
+{
+  "_note": "Values read from the 4 sample images (Aadhaar, PAN, BPL card, passbook). Planted inconsistencies: PAN differs (1234 vs 0001); BPL age says 70 but DOB gives 71.",
+  "aadhaar": {
+    "name": "Ramesh Gowda", "father_name": "Shankaregowda", "mother_name": "Nethravathi",
+    "dob": "15/06/1955", "gender": "Male", "aadhaar_number": "DEMO 4567 8901", "mobile": "9000000001",
+    "email": "ramesh.gowda@email.com", "address_line1": "12, Demo Street", "village": "Demo Village",
+    "taluk": "Demo Taluk", "district": "Mysuru", "state": "Karnataka", "pin_code": "000000"
+  },
+  "pan": {"pan": "DEMO-PAN-1234", "name": "Ramesh Gowda", "father_name": "Shankaregowda", "dob": "15/06/1955"},
+  "bpl": {
+    "name": "Ramesh Gowda", "father_name": "Shankaregowda", "mother_name": "Nethravathi", "dob": "15/06/1955",
+    "age": "70", "gender": "Male", "ration_card_no": "210400267839", "ration_card_type": "BPL",
+    "address_line1": "12, Demo Street", "village": "Demo Village", "taluk": "Demo Taluk", "district": "Mysuru",
+    "state": "Karnataka", "pin_code": "000000"
+  },
+  "passbook": {
+    "name": "Ramesh Gowda", "account_holder": "Ramesh Gowda", "father_name": "Shankaregowda",
+    "account_number": "123456789012", "ifsc": "BKID0001234", "bank_name": "State Bank of India",
+    "branch": "MAGADI ROAD MANJUTEJ TOWERS", "branch_code": "9047", "cif_no": "91052139592",
+    "account_type": "SAVINGS BANK ACCOUNT", "mobile": "9000000001", "dob": "15/06/1955",
+    "pan": "DEMO-PAN-0001", "address_line1": "12, Demo Street", "village": "Demo Village",
+    "taluk": "Demo Taluk", "district": "Mysuru", "pin_code": "000000"
+  },
+  "income_certificate": {"name": "Ramesh Gowda", "annual_income": "18000"},
+  "marks_card": {"name": "Ramesh Gowda"}
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "weights": {"blocking": 5, "should_fix": 3, "minor": 1},
+  "thresholds": {"name_verify": 85, "text_verify": 80, "low_confidence": 0.8},
+  "evidence": {
+    "pension": [
+      {"field": "annual_income", "any_of": ["income_certificate", "bpl"], "request": "income_certificate", "severity": "blocking"}
+    ],
+    "bank_account": []
+  },
+  "eligibility": {"pension": {"min_age": 65, "max_income": 20000}}
+}

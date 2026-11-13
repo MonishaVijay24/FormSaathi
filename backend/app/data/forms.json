@@ -1,0 +1,18 @@
+{
+  "bank_account": {
+    "id": "bank_account",
+    "title": {"en": "Demo Bank Account Opening Form", "kn": "ಡೆಮೊ ಬ್ಯಾಂಕ್ ಖಾತೆ ತೆರೆಯುವ ಅರ್ಜಿ", "hi": "डेमो बैंक खाता खोलने का आवेदन"},
+    "evidence": ["aadhaar"],
+    "fields": ["applicant_name", "father_name", "mother_name", "dob", "gender", "marital_status", "occupation",
+               "annual_income", "address_line1", "village", "taluk", "district", "pin_code", "mobile", "pan"]
+  },
+  "pension": {
+    "id": "pension",
+    "title": {"en": "Sandhya Suraksha Yojane - Senior Citizen Pension (Demo)", "kn": "ಸಂಧ್ಯಾ ಸುರಕ್ಷಾ ಯೋಜನೆ - ಹಿರಿಯ ನಾಗರಿಕರ ಪಿಂಚಣಿ (ಡೆಮೊ)", "hi": "संध्या सुरक्षा योजना - वरिष्ठ नागरिक पेंशन (डेमो)"},
+    "evidence": ["aadhaar", "income_certificate", "passbook"],
+    "fields": ["aadhaar_number", "title", "applicant_name", "relation_type", "relation_name", "mother_name", "dob",
+               "gender", "marital_status", "mobile", "ration_card_no", "address_line1", "village", "taluk",
+               "district", "pin_code", "annual_income", "ration_card_type", "bank_name", "branch",
+               "account_holder", "account_number", "ifsc"]
+  }
+}
