@@ -1,0 +1,9 @@
+{
+  "weights": { "blocking": 5, "shouldFix": 3, "minor": 1 },
+  "patterns": {
+    "ifsc": "^[A-Z]{4}0[A-Z0-9]{6}$",
+    "mobile": "^[6-9][0-9]{9}$",
+    "pinCode": "^[0-9]{6}$",
+    "aadhaar": "^[0-9]{12}$"
+  }
+}

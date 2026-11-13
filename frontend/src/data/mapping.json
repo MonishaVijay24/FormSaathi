@@ -1,0 +1,12 @@
+{
+  "bank": {
+    "identity": ["applicant_name", "dob"],
+    "income": ["annual_income"],
+    "passbook": ["account_number", "ifsc"]
+  },
+  "pension": {
+    "identity": ["applicant_name", "dob"],
+    "income": ["annual_income"],
+    "passbook": ["account_number", "ifsc"]
+  }
+}

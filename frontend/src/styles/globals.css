@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  body {
+    @apply bg-[#f7f3e8] text-ink font-sans antialiased;
+    background-image: radial-gradient(circle at 15% 0%, rgba(226, 239, 218, .55), transparent 28rem);
+  }
+  ::selection {
+    background-color: #e3f1df;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-ink;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-leaf text-white px-6 py-3 rounded-xl font-bold hover:bg-leafHover transition-all shadow-soft flex items-center gap-2;
+  }
+  .btn-secondary {
+    @apply bg-white border border-leaf/25 text-leaf px-6 py-3 rounded-xl font-bold hover:bg-leafTint transition-all;
+  }
+  .btn-accent {
+    @apply bg-[#d49a32] text-ink px-6 py-3 rounded-xl font-bold hover:bg-[#bd8424] transition-all;
+  }
+  .card-base {
+    @apply bg-white rounded-2xl border border-[#e5dfd0] shadow-soft p-6;
+  }
+  .eyebrow { @apply text-[11px] font-bold uppercase tracking-[0.18em] text-leaf; }
+  .page-heading { @apply text-3xl md:text-4xl font-bold tracking-tight; }
+  .soft-grid { background-image: linear-gradient(rgba(31,91,46,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(31,91,46,.04) 1px, transparent 1px); background-size: 24px 24px; }
+}

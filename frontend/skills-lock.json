@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "react-bits": {
+      "source": "Philotheephilix/reactbits.dev-skill",
+      "sourceType": "github",
+      "skillPath": "react-bits/SKILL.md",
+      "computedHash": "5f175665b574117d6402cd973368ef7f293ec5d0a63efc799123c68f78d37c76"
+    }
+  }
+}

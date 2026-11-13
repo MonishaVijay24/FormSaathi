@@ -1,0 +1,48 @@
+# Python environments
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Python testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private applicant data
+backend/private_data/
+backend/uploads/
+backend/tmp/
+backend/logs/
+
+# Encryption keys
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
+# Local editor settings
+.vscode/
